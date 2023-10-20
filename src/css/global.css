@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../assets/Fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../assets/Fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Black';
+  src: url('../assets/Fonts/Poppins-Black.ttf') format('truetype');
+}
+
+:root {
+  --bg-primario: #fffdf4;
+  --bg-secundario: #373737;
+  --bg-terciario: #222222;
+  --texto-normal: #5D5D5D;
+  --texto-secundario: #ffffff;
+  --titulo-seccion: #A14DA0;
+  --texto-cursiva: #9CA3AF;  
+  --texto-grueso: #1F2937;
+  --texto-seccion: #D6E5E3;
+  --hover-seccion: #F9FAFB;
+  --enlace: #e01a00;        
+  --enlace-hover: #FFFFB3 ;
+  --texto-boton: #2b002f;   
+  --boton-1: #F9A8D4;       
+  --boton-hover-1: #F87171; 
+  --bg-navbar: #c30068;     
+  --bg-footer: #1F2937;     
+  --bg-carousel: #E5E7EB;   
+  --bg-seccion: #F9FAFB;    
+  --bg-seccion-2: #F3F4F6;  
+  --bg-carousel-card: #F9FAFB;
+  --color-logo: #FFFFB3;
+  --color-logo-hover: #F9A8D4;
+}
+
+
+body {
+  font-family: 'Poppins-Regular', sans-serif;
+  color: var(--texto-normal);
+  background-color: var(--bg-primario);
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins-Bold', sans-serif;
+  color: var(--titulo-seccion);
+}
+
+a {
+  color: var(--enlace);
+}
+
+a:hover {
+  color: var(--enlace);
+}
+
+button {
+  background-color: var(--boton-1);
+  color: var(--texto-boton);
+}
+
+button:hover {
+  background-color: var(--boton-hover-1);
+}

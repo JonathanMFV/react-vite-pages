@@ -1,0 +1,32 @@
+.popup-container {
+  padding: 16px;
+  margin: 10px;
+  border-radius: 8px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: slide-up 0.5s ease-out, fade-out 0.5s ease-in 4s forwards;
+}
+
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

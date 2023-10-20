@@ -1,0 +1,13 @@
+.background-banner {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+  .background-banner {
+    background-attachment: scroll;
+  }
+}
